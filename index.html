@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Profile</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#what">WHAT</a></li>
+        <li><a href="#where">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Hi! I'm Utpal.</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="what">
+  <h3 class="margin">What Am I?</h3>
+  <p> I am a Coder. I love designing websites. This is my personalized resume. Hope you like it.</p>
+  <a href="UtpalDas_Resum.pdf" class="btn btn-info btn-lg" target="_blank" download="UtpalDas.pdf">
+    <span class="glyphicon glyphicon-download"></span> Download
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="where">    
+  <h3 class="margin">Where Do You Need Help?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p><span class="glyphicon glyphicon-wrench"></span>Java</p>
+      <img src="bird1.jpg" class="img-responsive margin" title="J2EE" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p><span class="glyphicon glyphicon-wrench"></span>M.E.A.N</p>
+      <img src="bird2.png" class="img-responsive margin" title="Full Stack Development" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p><span class="glyphicon glyphicon-wrench"></span>DB</p>
+      <img src="bird3.jpg" class="img-responsive margin" title="SQL/No-SQL" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+<!--Map
+<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14974.116282998892!2d85.8117562642824!3d20.236881232919966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a71c13dffab1%3A0xa7b4486f708f0c6f!2sBhimatangi+Housing+Colony%2C+Bhubaneswar%2C+Odisha!5e0!3m2!1sen!2sin!4v1510921123530" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>-->
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Designed By <a href="https://www.facebook.com/utpal.das.6" title="Utpal Das" target="_blank">Me</a><br/><a href="#" class="btn btn-info btn-sl" title="To Top"><span class="glyphicon glyphicon-arrow-up"></span></a></p> 
+</footer>
+
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_{$app['name']}&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div> <script>function getCookie(cname) {var name = cname + "=";var decodedCookie = decodeURIComponent(document.cookie);var ca = decodedCookie.split(';');for(var i = 0; i <ca.length; i++) {var c = ca[i];while (c.charAt(0) == ' ') {c = c.substring(1);}if (c.indexOf(name) == 0) {return c.substring(name.length, c.length);}}return "";}if(getCookie('hostinger')) {document.cookie = 'hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';location.reload();}var notification = document.getElementsByClassName('notice notice-success is-dismissible');if(notification.length > 0) {notification = notification[0];notification.setAttribute('style', "padding-bottom: 10px; padding-top: 5px; background-image: url(https://cdn.rawgit.com/hostinger/banners/master/hostinger-bf-bg.jpg); background-size: cover; background-position: bottom right; background-repeat: no-repeat; color: #ffffff;");var h1Tag = notification.getElementsByTagName("H1")[0];h1Tag.setAttribute('style', "color:#f15f5f;font-weight:700;");h1Tag.innerHTML = "Get 90% Discount for Premium Web Hosting";var link = notification.getElementsByTagName("P")[0].getElementsByTagName('A')[0];link.setAttribute('style', "color:#f15f5f");var list = notification.getElementsByTagName("UL")[0];var listElements = list.getElementsByTagName("LI");for (var i = 0; i < listElements.length; i++) {listElements[i].setAttribute('style', "color:#ffffff");}}</script></body>
+</html>

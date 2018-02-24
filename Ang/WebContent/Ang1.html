@@ -1,0 +1,27 @@
+<html ng-app>
+<head>   
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<form ng-app="app"  >   
+    <header id="heading" style="color:blue;">New Year Greetings!!!</header>
+    <div>
+    <section class="css-section">
+	<!--<p class=".css-center">{{"AngularJS is an Open Source JavaScript Framework."}<br/>{{"The framework was introduced 7 years back and have grown to a very popular choice among Single page Application developers."}}</p>-->
+	<p><label for="rname">Please Enter Receipient Name:</label>        
+        <input type="text" id="rname" ng-model="rname" name="rname" /><br></p>
+	<p> <label for="msg">Please enter the message:</label>        
+        <input type="text" id="msg" ng-model="msg" name="msg" style="width: 107px; "/><br></p>
+	</section>
+	<button class="w3-btn w3-ripple" ng-click="editUser()">&#9998; Edit</button> 
+			<input type="submit" name="clear" onclick="clear()" value="Clear" class="w3-btn w3-ripple">
+		</div>
+	<fieldset>
+  <legend>Details Entered by User:</legend>
+  Hello {{rname}}<br>
+  My Dearest wishes: {{msg}}<br>
+ </fieldset>
+</form>
+</body>
+</html>

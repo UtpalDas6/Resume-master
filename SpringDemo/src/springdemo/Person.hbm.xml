@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Person.hbm.xml
+    Created on : 2006年5月13日, 上午12:10
+    Author     : daiwei
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="springdemo.Person" table="Employee" >
+  <id name="eno" column="empID">
+         <generator class="assigned"/>
+  </id>
+     <property name="ename" column="Name"/>
+  </class> 
+  </hibernate-mapping>
